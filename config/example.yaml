@@ -1,0 +1,17 @@
+// config/default.example.ts
+export default {
+  server: {
+    port: 3000,
+  },
+  database: {
+    host: 'localhost',
+    port: 5432,
+    username: '',
+    password: '',
+    name: '',
+  },
+  jwt: {
+    secret: '',
+    expiresIn: '1d',
+  },
+};
